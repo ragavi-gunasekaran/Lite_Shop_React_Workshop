@@ -68,3 +68,7 @@ Run the project:
 npm run dev
 
 Open the localhost URL shown in the terminal.
+
+## Build Status
+
+![alt text](image.png)
