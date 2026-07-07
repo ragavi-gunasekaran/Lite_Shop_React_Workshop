@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import ProductSection from "./components/ProductSection";
+import Newsletter from "./components/Newsletter";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <ProductSection />
         </div>
         </main>
+      <Newsletter />
 
     </div>
   );
