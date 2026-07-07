@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
+import ProductSection from "./components/ProductSection";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <main className="mx-auto max-w-7xl px-4 py-6">
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
           <Sidebar />
+          <ProductSection />
         </div>
         </main>
 
