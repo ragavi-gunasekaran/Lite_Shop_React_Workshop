@@ -2,8 +2,9 @@ import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import ProductSection from "./components/ProductSection";
 import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
     <div className="min-h-screen bg-slate-100/30 text-slate-950">
       <Header />
@@ -13,11 +14,10 @@ function App() {
           <Sidebar />
           <ProductSection />
         </div>
-        </main>
-      <Newsletter />
+      </main>
 
+      <Newsletter />
+      <Footer />
     </div>
   );
 }
-
-export default App;
